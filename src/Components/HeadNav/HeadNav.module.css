@@ -1,0 +1,17 @@
+:root {
+  --primary-app-color: #101024;
+  --secondary-app-color: #1a1938;
+  --standout-color: #fffb00;
+}
+
+.navclass {
+  background: linear-gradient(
+    90deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
