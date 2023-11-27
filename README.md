@@ -1,4 +1,16 @@
-# React + Vite
+# Portfolio Project 
+
+React Version: 18.2.0
+React Dom Version : 18.2.0
+
+
+
+Credentials for login:-
+Email:kumar@gmail.com
+Password:123456
+
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
