@@ -9,15 +9,13 @@ import Testimonial from "../../Components/Testimonial/Testimonial";
 const Portfolio = () => {
   return (
     <Fragment>
-         
       <HeadNav />
       <Herosection />
       <AboutMe />
       <Resume />
-      <Testimonial/>
+      <Testimonial />
       <ConatctMe />
       <Footer />
-     
     </Fragment>
   );
 };
