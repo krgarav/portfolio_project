@@ -6,9 +6,17 @@ import Resume from "../../Components/Resume/Resume";
 import ConatctMe from "../../Components/Contactme/Contactme";
 import Footer from "../../Components/Footer/Footer";
 import Testimonial from "../../Components/Testimonial/Testimonial";
+import { motion, useScroll } from "framer-motion";
+import "./portfolio.css";
 const Portfolio = () => {
+  const { scrollYProgress } = useScroll();
   return (
     <Fragment>
+      <motion.div
+      id="motion-id"
+        className="progress-bars"
+        style={{ scaleX: scrollYProgress }}
+      />
       <HeadNav />
       <Herosection />
       <AboutMe />

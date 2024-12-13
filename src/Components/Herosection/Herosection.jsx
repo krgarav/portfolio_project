@@ -73,8 +73,7 @@ const Herosection = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 img-container">
-           
-             <lottie-player
+            <lottie-player
               src="https://lottie.host/63aff3b1-da76-4880-840c-41ec002ae5e7/83ifNfKh27.json"
               background="transparent"
               speed="1"
