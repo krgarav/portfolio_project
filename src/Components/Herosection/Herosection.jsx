@@ -51,7 +51,7 @@ const Herosection = () => {
                     "MERN Stack Dev",
                   ]}
                   typeSpeed={40}
-                  backSpeed={50}
+                  backSpeed={40}
                   loop
                 />
               </span>
