@@ -8,6 +8,7 @@ import Footer from "../../Components/Footer/Footer";
 import Testimonial from "../../Components/Testimonial/Testimonial";
 import { motion, useScroll } from "framer-motion";
 import "./portfolio.css";
+import Project from "../../Components/Projects/Project";
 const Portfolio = () => {
   const { scrollYProgress } = useScroll();
   return (
@@ -21,6 +22,7 @@ const Portfolio = () => {
       <Herosection />
       <AboutMe />
       <Resume />
+      <Project/>
       <Testimonial />
       <ConatctMe />
       <Footer />
