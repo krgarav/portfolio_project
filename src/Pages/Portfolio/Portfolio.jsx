@@ -14,7 +14,7 @@ const Portfolio = () => {
   return (
     <Fragment>
       <motion.div
-      id="motion-id"
+        id="motion-id"
         className="progress-bars"
         style={{ scaleX: scrollYProgress }}
       />
@@ -22,7 +22,7 @@ const Portfolio = () => {
       <Herosection />
       <AboutMe />
       <Resume />
-      <Project/>
+      <Project />
       <Testimonial />
       <ConatctMe />
       <Footer />
