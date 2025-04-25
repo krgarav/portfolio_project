@@ -1,6 +1,8 @@
 import "./Herosection.css";
 import Typed from "react-typed";
-
+import { FaSquareFacebook, FaLinkedin } from "react-icons/fa6";
+import { FaGithubSquare } from "react-icons/fa";
+// import {  } from "react-icons/fa6";
 const Herosection = () => {
   return (
     <div className="App" id="home">
@@ -15,7 +17,7 @@ const Herosection = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa-brands fa-square-facebook"></i>
+                    <FaSquareFacebook color="white" />
                   </a>
                   <a
                     href="https://myaccount.google.com/personal-info"
@@ -29,19 +31,20 @@ const Herosection = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa-brands fa-linkedin"></i>
+                    <FaLinkedin color="white" />
                   </a>
                   <a
                     href="https://github.com/krgarav"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa-brands fa-square-github"></i>
+                    <FaGithubSquare color="white" />
                   </a>
                 </div>
               </div>
               <span className="Im-text">
-                Hello,I'm <span className="name">A Fullstack Developer</span>
+                Hello,I&apos;m{" "}
+                <span className="name">A Fullstack Developer</span>
               </span>
               <span className="designation py-2">
                 <Typed
@@ -50,7 +53,7 @@ const Herosection = () => {
                     "Fullstack Dev",
                     "MERN Stack Dev",
                   ]}
-                  typeSpeed={40}
+                  typeSpeed={30}
                   backSpeed={40}
                   loop
                 />

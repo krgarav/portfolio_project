@@ -22,7 +22,6 @@
   height: 500px;
   display: flex;
   flex-direction: row;
-
   margin-inline: auto;
 }
 .get-in-touch {
@@ -56,5 +55,10 @@
 .button-class {
   margin-top: 10px;
   width: 100%;
-  
+}
+@media (max-width: 768px) {
+  .contact-me-card {
+    flex-direction: column;
+    height: auto; /* Optional: lets the height adjust to content */
+  }
 }

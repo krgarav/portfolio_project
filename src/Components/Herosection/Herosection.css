@@ -97,12 +97,12 @@
   color: #111;
 }
 
-.colz .colz-icon i {
+.colz .colz-icon a {
   color: white;
   padding: 10px;
   padding-left: 0px;
 }
-.colz .colz-icon i:hover {
+.colz .colz-icon a:hover {
   transform: scale(1.5);
 }
 @keyframes Anim {
@@ -129,20 +129,16 @@
 .img {
   width: 300px;
   border-radius: 50%;
-  
 }
-.img:hover{
+.img:hover {
   transform: scale(1.08);
   transition: 0.5s ease-in-out;
- 
 }
 .img-container {
   justify-content: center;
   padding-inline-start: 10%;
 }
-.dummyimage{
+.dummyimage {
   height: 60vh;
   width: auto;
-
-
 }
